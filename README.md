@@ -1,4 +1,4 @@
-# Add ulimit for nginx
+## Add ulimit for nginx
 ```
 www-data        soft    nofile          100000
 www-data        hard    hard            120000
@@ -11,12 +11,12 @@ nginx hard nofile 30000
 # End of file
 ```
 
-# Tuning ulimit on online
+## Tuning ulimit on online
 ```
 ulimit -n 150000
 ```
 
-# Add sysctl.conf
+## Add sysctl.conf
 ```
 #
 #net.ipv4.tcp_fin_timeout = 60
