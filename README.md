@@ -11,7 +11,7 @@ nginx hard nofile 30000
 # End of file
 ```
 
-## Tuning ulimit on online
+## Apply tuning ulimit online
 ```
 ulimit -n 150000
 ```
